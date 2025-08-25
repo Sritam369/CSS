@@ -31,7 +31,7 @@ img{
     display: inline-block;
     position:relative;
     bottom:20px;
-    left:50px;
+    left:100px;
 
 }
 
@@ -46,21 +46,21 @@ img{
       display:inline-block;
       position:relative;
     bottom:20px;
-    left:50px;
+    left:150px;
 
 }
 .d2{
     text-align: center;
     align-content: center;
-    color:white;
     height:500px;
     width:500px;
-    position:absolute;
-    top:1%;
-    left:30%;
+    position:relative;
+    bottom: 50px;
+    left:500px;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
+    color:white;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -105,6 +105,22 @@ h3{
     text-align: center;
     align-content: center;
     background-color: black;
+
+    
+}
+.d6{
+    box-sizing: border-box;
+    border:3px solid black;
+    border-radius: 20px;
+    height:100px;
+    width:150px;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:520px;
+
     
 }
 
