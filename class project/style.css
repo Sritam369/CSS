@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display:flex;
+    height:450px;
+    width:800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+    width:30%;
+    background-color: orange;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    align-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:20px;
+
+
+}
+.center{
+    width:30%;
+    background-color: blueviolet;
+     display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding:20px;
+    
+
+}
+.right{
+    width:30%;
+    background-color: olive;
+     display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:20px;
+    text-align: left;
+    align-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.button1{
+    border-radius: 50px;
+    text-align: center;
+    color: orange;
+    align-content: center;
+    width:70%;
+    padding:10px;
+
+}
+.button2{
+    border-radius: 50px;
+    text-align: center;
+    color:blue;
+    align-content: center;
+    width:70%;
+    padding:10px;
+    
+}
+.button3{
+    border-radius: 50px;
+    text-align: center;
+    color: olive;
+    align-content: center;
+    width:70%;
+    padding:10px;
+    
+}
