@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="s1">
+        <div class="main">
+            <div class="top">
+                <h2>Login</h2>
+                </div>
+            <div class="bot">
+                <label for="1">Email</label>
+                <input type="email" name="mail" placeholder="you@example.com" id="1" pattern="[a-zA-Z]+@+[a-zA-Z]+\.+[a-zA-Z]{3,}"><br>
+                <label for="2">password</label>
+                <input type="password" name="pw" id="2" placeholder="*****" minlength="8"  ><br>
+                <div class="main2">
+                    <div class="left">
+                    <input type="checkbox" id="c3"> 
+                    <label for="c3">Remember Me</label> </div>
+                    <h4>Forgot Password?</h4>
+                </div>
+                <button class="b1">Log In</button>
+    <p class="p1">Don't have an account? <span>Sign Up</span></p>
+
+            </div>
+            
+        </div>
+    </section>
+    <section class="s2">
+      <h2>Register for IT Training</h2><br>
+      <label for="5">Full Name</label>
+      <input type="text" name="name" id="5"><br>
+      <label for="6">Email Address</label>
+      <input type="email" name="email" id="6" pattern="[a-zA-Z]+@+[a-zA-Z]+\.+[a-zA-Z]{3,}"><br>
+      <label for="7">Phone Number</label>
+      <input type="number" name="phone" id="7" minlength="10"><br>
+      <label for="8">Select Course</label>
+      <select name="course" id="8">
+       <option value="no">Choose a course</option>
+       <option value="btech">btech</option>
+       <option value="mtech">mtech</option>
+      </select><br>
+      <p>Preferred learning mode:</p><br>
+      <div class="r1">
+      <input type="radio" id="9">
+      <label for="9">Online</label></div><br>
+      <div class="r2">
+       <input type="radio" id="10">
+      <label for="10">Offline</label></div><br>
+      <p>Skills you already know:</p><br>
+      <div class="r3">
+      <input type="checkbox">HTML </div><br>
+      <div class="r4">
+      <input type="checkbox">CSS </div><br>
+      <div class="r5">
+      <input type="checkbox">JAVASCRIPT </div><br>
+      <label for="11" >Additional notes</label><br>
+      <textarea name="note" id="11" rows="20" placeholder="any specific request" ></textarea><br>
+      <button class="b2">Submit Registration</button>
+      </section>
+</body>
+</html>
