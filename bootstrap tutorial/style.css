@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sritam ;
+    src: url('./ChocolateDropsNF.otf');
+}
+body{
+    font-family: sritam;
+    height:100vh;
+    font-size: 72px;
+}
