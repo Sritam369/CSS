@@ -43,14 +43,11 @@ span{
 h3{
     color:white;
     font-weight: bold;
-    
 }
 .p2{
     margin-top: 10px;
     color:white;
 }
-
-
 .skills{
     padding:20px;
     margin-top: 35px;
@@ -264,12 +261,11 @@ transition:all 1s ease
 }
  @media (min-width:769px) and (max-width:996px){
     .main{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
     }
  }
     @media (min-width:996px) and (max-width:1024px){
         .main{
     grid-template-columns: 1fr 1fr;
     }
-    }
-    
+}
